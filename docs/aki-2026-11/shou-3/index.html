@@ -14,6 +14,7 @@
 <meta property="og:description" content="シンボルウォーク 秋のキャンペーンの3等（20 XYM）の当選の頁です。">
 <meta property="og:url" content="https://ss-appworks.github.io/symbolwalk-results/aki-2026-11/shou-3/">
 <meta property="og:image" content="https://ss-appworks.github.io/symbolwalk-results/aki-2026-11/img/shou-3.png">
+<meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="675">
 <meta name="twitter:card" content="summary_large_image">
@@ -61,7 +62,7 @@ color:#fffffe;text-decoration:none;font-size:16px;font-weight:600}
 <img class="img" src="../img/shou-3.png" alt="3等 20 XYM の当選の画像" width="1200" height="675">
 <div class="btns">
 <a class="btn btn-main" id="post" href="https://x.com/intent/tweet?text=%23PR%20%E3%82%B7%E3%83%B3%E3%83%9C%E3%83%AB%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF%20%E7%A7%8B%E3%81%AE%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E3%81%A7%2020%20XYM%20%E3%81%8C%E5%BD%93%E3%81%9F%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F%20%23%E3%82%B7%E3%83%B3%E3%83%9C%E3%83%AB%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF&amp;url=https%3A%2F%2Fss-appworks.github.io%2Fsymbolwalk-results%2Faki-2026-11%2Fshou-3%2F" target="_blank" rel="noopener noreferrer">X で報告する</a>
-<button type="button" class="btn btn-sub" id="share" hidden data-img="../img/shou-3.png" data-name="shou-3.png" data-type="image/png" data-text="#PR シンボルウォーク 秋のキャンペーンで 20 XYM が当たりました #シンボルウォーク" data-url="https://ss-appworks.github.io/symbolwalk-results/aki-2026-11/shou-3/">画像を付けて共有する</button>
+<button type="button" class="btn btn-sub" id="share" hidden data-img="../img/shou-3.png" data-name="shou-3.png" data-type="image/png" data-text="#PR シンボルウォーク 秋のキャンペーンで 20 XYM が当たりました #シンボルウォーク https://ss-appworks.github.io/symbolwalk-results/aki-2026-11/shou-3/">画像を付けて共有する</button>
 </div>
 <p class="note">報告は任意です。XYM は報告しなくても届いています。</p>
 <ul class="rows">
@@ -78,7 +79,7 @@ var d=b.dataset;
 fetch(d.img).then(function(r){return r.ok?r.blob():null}).then(function(blob){
 if(!blob)return;
 var f=new File([blob],d.name,{type:d.type});
-var data={files:[f],text:d.text,url:d.url};
+var data={files:[f],text:d.text};
 try{if(!navigator.canShare({files:[f]}))return}catch(e){return}
 b.hidden=false;
 b.addEventListener('click',function(){navigator.share(data).catch(function(){})});
