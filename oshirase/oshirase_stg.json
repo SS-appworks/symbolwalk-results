@@ -9,6 +9,21 @@
       "sendAt": "2026-11-16T00:34:00+09:00",
       "notifications": true,
       "dryRun": true
+    },
+    {
+      "id": "stg-2359-promo",
+      "kind": "promo",
+      "title": "【試験】お知らせの送り口の試験",
+      "body": "試験用の Firebase の試験の文です。本番には送られません。",
+      "sendAt": "2026-11-16T00:35:00+09:00",
+      "notifications": true
+    },
+    {
+      "id": "stg-2359-tameshi",
+      "kind": "tameshi",
+      "title": "【試験】お知らせの送り口の試し",
+      "body": "試験用の Firebase の試しの文です。",
+      "sendAt": "2026-11-16T00:35:00+09:00"
     }
   ]
 }
