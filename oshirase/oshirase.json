@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "items": [
+    {
+      "id": "aki-tameshi-1",
+      "kind": "tameshi",
+      "title": "🍁秋のXYMプレゼントキャンペーン開催中",
+      "body": "公式X（@SymbolWalk）で総額10,000XYMが当たるキャンペーンを開催中です。締切は11月20日（金）23:59、ぜひご参加ください。",
+      "sendAt": "2026-11-16T01:04:00+09:00",
+      "notifications": false,
+      "dryRun": false
+    }
+  ]
+}
